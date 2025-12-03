@@ -1,0 +1,16 @@
+- Projects
+  - Web
+    - Portfolio
+    - Blog
+  - Scripts
+    - Python
+      - md2tree
+      - file_cleaner
+    - Bash
+- Notes
+  - University
+    - Research
+    - Assignments
+  - Personal
+    - Ideas
+    - Reading List

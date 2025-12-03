@@ -25,7 +25,7 @@
 1. `input.md` に、次のような Markdown の箇条書きを用意します．
 
    例（`sample_input.md` と同等）:
-
+    ```markdown 
    - Projects  
      - Web  
        - Portfolio  
@@ -42,7 +42,7 @@
      - Personal  
        - Ideas  
        - Reading List  
-
+    
 2. スクリプトを実行します．
 
    python md2tree.py
@@ -52,7 +52,7 @@
 ## Example
 
 上記のサンプル入力に対して、出力は次のようになります（`sample_output.txt` と同等）:
-
+```text
 .
 ├── Projects
 │   ├── Web
@@ -70,7 +70,7 @@
     └── Personal
         ├── Ideas
         └── Reading List
-
+```
 ## Notes
 
 - インデントは半角スペース 2 個を 1 レベルとして扱います．
